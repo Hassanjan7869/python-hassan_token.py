@@ -1178,4 +1178,5 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print(f"\n{Colors.RED}[!] Tool stopped{Colors.RESET}")
     except Exception as e:
+
         print(f"\n{Colors.RED}[!] Critical error: {str(e)}{Colors.RESET}")
